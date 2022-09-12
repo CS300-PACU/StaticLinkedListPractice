@@ -58,10 +58,10 @@ int main ()
 
 
 
-   // TODO: place sNode1 into the list so that it is in front of sNode3
-   // Make psCurrent point to the front of the list
-   // psHead should point to the first node in the list
-   // psTail should point to the last node in the list
+  // TODO: place sNode1 into the list so that it is in front of sNode3
+  // Make psCurrent point to the front of the list
+  // psHead should point to the first node in the list
+  // psTail should point to the last node in the list
 
   // TODO: place sNode2 into the list so that it is at the end of
   // the list
