@@ -63,16 +63,30 @@ int main ()
   // psHead should point to the first node in the list
   // psTail should point to the last node in the list
 
+
+
+
   // TODO: place sNode2 into the list so that it is at the end of
   // the list
   // Make psCurrent point to the front of the list
   // psHead should point to the first node in the list
   // psTail should point to the last node in the list
 
+
+
+
+
   // TODO: Print the list's data to the screen, one integer per line
+  // REQUIRED: Use sMyList.psCurrent to walk the list
+
+
 
 
   // TODO: remove the middle node from the list
+
+
+
+
 
   return 0;
 }
