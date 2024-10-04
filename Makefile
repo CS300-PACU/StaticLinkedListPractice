@@ -22,7 +22,10 @@ valgrind: bin/main
 	valgrind -v --leak-check=yes --track-origins=yes --leak-check=full --show-leak-kinds=all bin/main
 
 printMain:
-	enscript -C -T 2 -p - -M Letter -Ec --color -fCourier8 src/main.c  | ps2pdf - bin/main.pdf
+	enscript -C -T 2 -p - -M Letter -Ec --color -fCourier12 src/main.c  | ps2pdf - bin/main.pdf
+
+printMain:
+	enscript -C -T 2 -p - -M Letter -Ec --color -fCourier12 src/main2.c  | ps2pdf - bin/main2.pdf
 
 clean:
 	rm -f bin/main bin/*.o
